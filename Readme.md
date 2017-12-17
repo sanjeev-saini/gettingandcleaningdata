@@ -22,6 +22,6 @@ You should create one R script called run_analysis.R that does the following.
 ## Notes ##
  
 1. Download run_analysis.R and copy it to the R Working Directory.
-2.  Start RStudio, load run_analysis.R into the Source pane, select entire code and press the <Run> button.
+2.  Start RStudio, load run_analysis.R into the Source pane, select entire code and press the 'Run' button.
 3.  The script will download the necessary data from the source mentioned above and load it into './data' folder.  It will create the folder if it doesn't exist.
 4.  The script will perform steps 1-5 above and create a tidy dataset in the R Working Directory called 'MeanActivityDetails.txt'.
