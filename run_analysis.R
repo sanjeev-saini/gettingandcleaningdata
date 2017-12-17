@@ -199,7 +199,8 @@ my_activitydata <- dcast(my_melt, subject + activityname ~ variable, mean)
 #---------------------------------------------------------------------------------------------------------
 
 write.table(my_activitydata,
-            file = "./MeanAcitivityDetails.txt"
+            file = "./MeanActivityDetails.txt",
+            row.names = FALSE
 )            
 
 #---------------------------------------------------------------------------------------------------------            
